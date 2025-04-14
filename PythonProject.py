@@ -1,4 +1,4 @@
-Import data:
+# Import data:
 
 import pandas as pd
 import numpy as np
@@ -12,14 +12,14 @@ df.head(5)
 df.info()
 
 
-Drop null value
+# Drop null value
 
 df.dropna(inplace=True)
 df.shape
 
 
 
-Drop 0 value
+# Drop 0 value
 
 df.replace(0, np.nan, inplace=True) 
 df.dropna(inplace=True)  
@@ -27,7 +27,7 @@ df.shape
 
 
 
-Check for missing values
+# Check for missing values
 
 print("Missing values in dataset:")
 print(df.isnull().sum())
@@ -35,7 +35,7 @@ print(df.isnull().sum())
 
 
 
-To change the data type of a perticular column
+# To change the data type of a perticular column
 
 df['Manual distribution of food grains'].dtypes
 for col in df.columns:
@@ -49,26 +49,26 @@ df['Manual distribution of food grains'].dtypes
 
 
 
-To rename the column name
+# To rename the column name
 
 df.rename(columns={"Manual distribution of food grains":"Direct Food Distribution"})
 
 
 
-Check for duplicate rows
+# Check for duplicate rows
 
 print("Duplicate rows:", df.duplicated().sum())
 
 
 
-Remove duplicates if any
+# Remove duplicates if any
 
 df = df.drop_duplicates()
 df.shape
 
 
 
-Final data type after cleaning
+# Final data type after cleaning
 
 print(df.info())
 print(df.head())
@@ -76,10 +76,10 @@ df.describe()
 
 
 
-Exploratory Data Analysis:
+# Exploratory Data Analysis:
 
 
-line plot for food grains allocated over time using the Year column(how food grain allocations have changed over time.
+# line plot for food grains allocated over time using the Year column(how food grain allocations have changed over time.
 
 plt.figure(figsize=(7, 3))
 sns.lineplot(x=df["YearCode"], y=df["Food grains allocated"], marker="o", color="red")
@@ -89,7 +89,7 @@ plt.ylabel("Food Grains Allocated")
 plt.grid(True)
 
 
-Histogram of Food Grains Allocated
+# Histogram of Food Grains Allocated
 
 plt.figure(figsize=(7, 3))
 sns.histplot(df["Food grains allocated"], bins=30, kde=True, color="green", label="Food Grains Distribution")
@@ -102,7 +102,7 @@ plt.grid(True)
 
 
 
- Boxplot to Identify Outliers
+#  Boxplot to Identify Outliers
 
 plt.figure(figsize=(7, 3))
 sns.boxplot(x=df["Food grains allocated"], color="blue", label="Food Grains Boxplot")
@@ -114,7 +114,7 @@ plt.grid(True)
 
 
 
-Trend of Food Grains Allocation Over Time
+# Trend of Food Grains Allocation Over Time
 
 plt.figure(figsize=(6, 3))
 df_grouped = df.groupby("Year")["Food grains allocated"].sum()
@@ -128,7 +128,7 @@ plt.grid(True)
 
 
 
-Aadhaar Transactions by State (Top 10 States)
+# Aadhaar Transactions by State (Top 10 States)
 
 plt.figure(figsize=(7, 3))
 top_states = df.groupby("srcStateName")["Aadhaar authenticated Transactions"].sum().nlargest(10)
@@ -142,7 +142,7 @@ plt.grid(True)
 
 
 
-Scatter Plot: Food Grains vs Aadhaar Transactions
+# Scatter Plot: Food Grains vs Aadhaar Transactions
 
 plt.figure(figsize=(7, 3))
 sns.scatterplot(x=df["Food grains allocated"], y=df["Aadhaar authenticated Transactions"], color="blue", alpha=0.6, label="Data Points")
@@ -156,7 +156,7 @@ plt.grid(True)
 
 
 
-Pie Chart for Distribution of Transactions
+# Pie Chart for Distribution of Transactions
 
 plt.figure(figsize=(7, 3))
 labels = ["ePoS Distribution", "Manual Distribution"]
@@ -171,7 +171,7 @@ plt.show()
 
 
 
-Correlation Matrix of Numeric Features (Heatmap)
+# Correlation Matrix of Numeric Features (Heatmap)
 
 # Correlation helps understand relationships between numeric variables
 numeric_df = df.select_dtypes(include=['number'])
@@ -183,7 +183,7 @@ plt.show()
 
 
 
-efficient way to plot histograms for all numeric columns in one go
+# efficient way to plot histograms for all numeric columns in one go
 
 numeric_cols = df.select_dtypes(include=['number']).columns
 df[numeric_cols].hist(figsize=(13, 10), bins=30, color="blue", edgecolor="black", layout=(len(numeric_cols) // 3 + 1, 3))
@@ -192,7 +192,7 @@ plt.show()
 
 
 
-Boxplots for Outlier Detection
+#Boxplots for Outlier Detection
 
 plt.figure(figsize=(7, 3))
 df[numeric_cols].boxplot(rot=90)
@@ -200,7 +200,8 @@ plt.title("Boxplot of Numeric Columns")
 plt.show()
 
 
-Time-Based Analysis
+
+# Time-Based Analysis
 
 
 # Convert 'Month' to datetime format
