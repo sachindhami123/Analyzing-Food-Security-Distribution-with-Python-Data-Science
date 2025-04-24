@@ -1,19 +1,20 @@
 🍚📊 Analyzing Food Security Distribution with Python & Data Science 📊⚙️
+
 I recently completed a data science project analyzing real-world data from the National Food Security Act (NFSA) dataset, available on NDAP, using Python.
 
-🔍 From data cleaning and transformation to in-depth Exploratory Data Analysis (EDA) and dashboard creation, I uncovered powerful insights into food grain allocation, Aadhaar-linked transactions, and ration card activity across Indian states and years.
-
-Key insights, EDA & visualizations included:
+🔍 From data cleaning to insights:
 📌 Initial data exploration, missing value checks, and datatype analysis
 📌 States with the highest food grain allocations
 📌 Aadhaar authentication trends over the years
 📌 Correlation between ration card issuance and transaction volumes
 📌 Heatmaps revealing relationships among features
-📌 Temporal trends using Year-Month analysis for food distribution
+📌 Year-Month analysis of food distribution trends
 
+👨‍💻 Tools Used: pandas, matplotlib, seaborn, numpy
 
-👨‍💻 Tools & Libraries Used: pandas, matplotlib, seaborn, numpy
+💡 Key Finding: The analysis revealed a consistently high percentage (often exceeding 85%) of Aadhaar-authenticated transactions, demonstrating significant progress in digitizing India's public distribution system — a major step toward transparent and efficient governance in food security.
 
-💡 One of the most interesting findings? A consistently high percentage of Aadhaar-authenticated transactions, highlighting increasing digitization and transparency in the public distribution system — a major step forward for efficient governance and food security.
+This project strengthened my EDA, data wrangling, and visualization skills while highlighting how data-driven analysis can support sustainable public welfare programs.
 
-This project strengthened my EDA, data wrangling, and visualization skills, while also deepening my understanding of how data-driven analysis can support inclusive and sustainable public welfare 🌱
+#DataScience #FoodSecurity #Python #EDA
+
