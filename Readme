@@ -5,14 +5,14 @@ I recently completed a data science project where I analyzed real-world data fro
 🔍 From data cleaning and transformation to thorough Exploratory Data Analysis (EDA) and dashboard creation, I uncovered valuable insights into food grain allocation, Aadhaar-linked transactions, and ration card activity across various Indian states and years.
 
 Key Insights, EDA & Visualizations Included:
-📌 Initial data exploration, missing value checks, and datatype analysis.
+📌 Initial data exploration, missing value checks, and data type analysis.
 📌 Identification of states with the highest food grain allocations.
 📌 Trends in Aadhaar authentication observed over the years.
 📌 Correlation analysis between ration card issuance and transaction volumes.
 📌 Heatmaps highlighting relationships among different features.
 📌 Temporal trends analyzed using Year-Month breakdowns for food distribution.
 
-👨‍💻 Tools & Libraries Used: pandas, matplotlib, seaborn, numpy
+👨‍💻 Tools & Libraries Used: pandas, matplotlib, seaborn, numpy.
 
 💡 Most Interesting Findings? A consistently high percentage of Aadhaar-authenticated transactions, pointing to the increasing digitization and transparency in the public distribution system — a significant move towards more efficient governance and food security.
 
