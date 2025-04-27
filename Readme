@@ -1,11 +1,11 @@
-🍚📊 Analyzing Food Security Distribution with Python & Data Science 📊⚙️
+🍚📊 Analyzing Food Security Distribution with Python and Data Science 📊⚙️
 
 I recently completed a data science project where I analyzed real-world data from the National Food Security Act (NFSA) dataset available on NDAP using Python.
 
 🔍 From data cleaning and transformation to thorough Exploratory Data Analysis (EDA) and dashboard creation, I uncovered valuable insights into food grain allocation, Aadhaar-linked transactions, and ration card activity across various Indian states and years.
 
 Key Insights, EDA & Visualizations Included:
-📌 Initial data exploration, missing value checks, and datatype analysis.
+📌 Initial data exploration, missing value checks, and datatype analysis. 
 📌 Identification of states with the highest food grain allocations.
 📌 Trends in Aadhaar authentication observed over the years.
 📌 Correlation analysis between ration card issuance and transaction volumes.
