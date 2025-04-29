@@ -7,13 +7,13 @@ I recently completed a data science project where I analyzed real-world data fro
 Key Insights, EDA & Visualizations Included:
 📌 Initial data exploration, missing value checks, and datatype analysis.
 📌 Identification of states with the highest food grain allocations.
-📌 Trends in Aadhaar authentication observed over the years.
+📌 Trends in Aadhaar authentication observed over recent years.
 📌 Correlation analysis between ration card issuance and transaction volumes.
 📌 Heatmaps highlighting relationships among different features.
 📌 Temporal trends analyzed using Year-Month breakdowns for food distribution.
 
 👨‍💻 Tools & Libraries Used: pandas, matplotlib, seaborn, numpy
 
-💡 Most Interesting Findings? A consistently high percentage of Aadhaar-authenticated transactions, pointing to the increasing digitization and transparency in the public distribution system — a significant move towards more efficient governance and food security.
+💡 Most Interesting Findings? A consistently high percentage of Aadhaar-authenticated transactions, indicating the increasing digitization and transparency in the public distribution system — a significant step towards more efficient governance and food security.
 
 This project helped me enhance my EDA, data wrangling, and visualization skills while deepening my understanding of how data-driven analysis can support inclusive and sustainable public welfare. 🌱
