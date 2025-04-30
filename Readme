@@ -12,7 +12,7 @@ Key Insights, EDA & Visualizations Included:
 📌 Heatmaps highlighting relationships among different features.
 📌 Temporal trends analyzed using Year-Month breakdowns for food distribution.
 
-👨‍💻 Tools & Libraries Used: pandas, matplotlib, seaborn, numpy
+👨‍💻 Tools & Libraries Used: pandas, matplotlib, seaborn, numpy    
 
 💡 Most Interesting Findings? A consistently high percentage of Aadhaar-authenticated transactions, indicating the increasing digitization and transparency in the public distribution system — a significant step towards more efficient governance and food security.
 
